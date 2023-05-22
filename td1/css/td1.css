@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.white {
+    background-color: rgb(255, 255, 255);
+}
+
+.green {
+    background-color: rgb(150, 255, 150);
+}
+
+.red {
+    background-color: rgb(255, 150, 150);
+}
+
+.divMenu {
+    border-radius: 10px;
+    margin: 5px;
+}
+
+ul li {
+    padding-left: 5%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.titresMenu {
+    padding-left: 5%;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 255);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.titresMenu:hover {
+    text-decoration: underline;
+}
+
+ul li:last-child {
+    border-radius: 0 0 5px 5px;
+}
+
+#menuDeroulant {
+    padding: 2px;
+    background-color: rgb(0, 255, 255);
+    max-width: 300px;
+    margin: 10px 0 10px 0;
+}
+
+.select {
+    background-color: yellow;
+}
